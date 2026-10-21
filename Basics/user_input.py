@@ -25,3 +25,12 @@ favorite_number, lucky_number = numeric_inputs
 # Displaying the results
 print(f"Your favorite color is {favorite_color} and your favorite fruit is {favorite_fruit}.")
 print(f"Your favorite number is {favorite_number} and your lucky number is {lucky_number}.")
+
+
+# Handling whitespace characters
+
+# we can also use strip() to remove the trailing zeroes
+user_input = input()     # input: " Alice  "
+cleaned_input = user_input.rstrip()
+cleaned_input = user_input.lstrip()
+print(f"Hello, '{cleaned_input}'!")
