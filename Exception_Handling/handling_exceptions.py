@@ -24,3 +24,19 @@ try:
 
 except Exception as ex:
     print(ex)
+
+# try , except and else block
+
+try:
+    num = int(input("Please enter the number:  "))
+    result = 10/num
+except ValueError as ex:
+    print("It is not a valid number")
+except ZeroDivisionError as ex:
+    print("You can't divide by zero")
+except Exception as ex:
+    print(ex)
+else:
+    print(f"the result is {result}")
+
+
