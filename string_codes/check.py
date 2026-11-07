@@ -17,3 +17,5 @@ print(text4.isalpha())  # Output: False
 # 5. Empty String
 text5 = ""
 print(text5.isalpha())  # Output: False
+
+# python ka boolean  -> True and False
